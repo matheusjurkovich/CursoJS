@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: 0;
+  padding: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(40, 97, 172);
+}
+
+.invisible {
+  display: none;
+}
